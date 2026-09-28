@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitDojo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Fondo: terminal con bichos ASCII que cruzan la pantalla -->
+  <div class="terminal-fondo" id="fondo"></div>
+
+  <section class="portada">
+    <p class="prompt">~/dojo <span class="verde">(main)</span> $ git init</p>
+    <h1 class="logo">GitDojo</h1>
+    <p class="lema">Aprende Git escribiendo Git.</p>
+
+    <div class="marcador">
+      <div><b id="m-lecciones">0/30</b><span>lecciones</span></div>
+      <div><b id="m-bloques">0/6</b><span>bloques</span></div>
+      <div><b id="m-pct">0%</b><span>progreso</span></div>
+    </div>
+    <div class="progreso"><div class="progreso-fill" id="progreso-fill"></div></div>
+
+    <button class="btn btn-principal" id="btn-empezar">Ver temario ↓</button>
+  </section>
+
+  <main class="temario" id="temario">
+    <h2 class="temario-titulo"><span class="verde">$</span> git log --temario</h2>
+    <div class="bloques" id="bloques"></div>
+  </main>
+
+  <footer class="pie">
+    <span>GitDojo · local</span>
+    <button class="btn btn-secundario" id="btn-reset">Reiniciar progreso</button>
+  </footer>
+
+  <div class="aviso" id="aviso"></div>
+
+  <script src="fondo.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

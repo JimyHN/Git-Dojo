@@ -1,0 +1,68 @@
+[
+  {
+    "bloque": 1,
+    "titulo": "Fundamentos y tu primer repo",
+    "lecciones": [
+      { "orden": 1, "titulo": "Qué es Git + primeros comandos", "tipo": "mixta", "bloqueante": false },
+      { "orden": 2, "titulo": "Configuración inicial y alias", "tipo": "practica", "bloqueante": false },
+      { "orden": 3, "titulo": "Crear tu repo: init, add, commit, status", "tipo": "practica", "bloqueante": true },
+      { "orden": 4, "titulo": "Staging y flujo real de Git", "tipo": "practica", "bloqueante": true },
+      { "orden": 5, "titulo": "Leer el historial: log, show, diff", "tipo": "practica", "bloqueante": false },
+      { "orden": 6, "titulo": ".gitignore", "tipo": "practica", "bloqueante": false },
+      { "orden": 7, "titulo": "Deshacer: restore, reset (soft/mixed/hard), revert", "tipo": "practica", "bloqueante": true }
+    ]
+  },
+  {
+    "bloque": 2,
+    "titulo": "Ramas y trabajo diario",
+    "lecciones": [
+      { "orden": 8, "titulo": "Ramas: branch, switch/checkout", "tipo": "practica", "bloqueante": true },
+      { "orden": 9, "titulo": "stash: guardar trabajo a medias", "tipo": "practica", "bloqueante": false },
+      { "orden": 10, "titulo": "Merge: fast-forward vs three-way", "tipo": "practica", "bloqueante": false },
+      { "orden": 11, "titulo": "Conflictos y resolución", "tipo": "practica", "bloqueante": true },
+      { "orden": 12, "titulo": "Tags", "tipo": "practica", "bloqueante": false }
+    ]
+  },
+  {
+    "bloque": 3,
+    "titulo": "Remotos y GitHub",
+    "lecciones": [
+      { "orden": 13, "titulo": "Remotos: clone, remote, fetch, pull, push + aviso reconcile", "tipo": "practica", "bloqueante": true },
+      { "orden": 14, "titulo": "Fork y upstream: mantener al día un repo ajeno", "tipo": "practica", "bloqueante": false },
+      { "orden": 15, "titulo": "Autenticación: claves SSH y tokens", "tipo": "practica", "bloqueante": false }
+    ]
+  },
+  {
+    "bloque": 4,
+    "titulo": "Historia avanzada y reescritura",
+    "lecciones": [
+      { "orden": 16, "titulo": "amend: arreglar el último commit", "tipo": "practica", "bloqueante": false },
+      { "orden": 17, "titulo": "rebase e interactivo (squash, reword, edit, drop)", "tipo": "practica", "bloqueante": true },
+      { "orden": 18, "titulo": "cherry-pick", "tipo": "practica", "bloqueante": false },
+      { "orden": 19, "titulo": "reflog y recuperación: rescatar lo \"borrado\"", "tipo": "practica", "bloqueante": false },
+      { "orden": 20, "titulo": "Firmar y verificar commits (GPG): por qué un commit puede mentir", "tipo": "practica", "bloqueante": false }
+    ]
+  },
+  {
+    "bloque": 5,
+    "titulo": "Git para pentesting / red team",
+    "lecciones": [
+      { "orden": 21, "titulo": ".git expuesto: detección y dumping (git-dumper)", "tipo": "practica", "bloqueante": true },
+      { "orden": 22, "titulo": "Reconstruir el código desde un .git filtrado", "tipo": "practica", "bloqueante": false },
+      { "orden": 23, "titulo": "Cazar secretos en el historial", "tipo": "practica", "bloqueante": true },
+      { "orden": 24, "titulo": "Qué queda recuperable: commits borrados, stashes, ramas huérfanas", "tipo": "practica", "bloqueante": false },
+      { "orden": 25, "titulo": "OSINT y GitHub dorking: leaks en repos públicos", "tipo": "mixta", "bloqueante": false },
+      { "orden": 26, "titulo": "Git hooks y su abuso (supply chain)", "tipo": "mixta", "bloqueante": false },
+      { "orden": 27, "titulo": "Análisis forense de un repo comprometido", "tipo": "practica", "bloqueante": false },
+      { "orden": 28, "titulo": "Git en un engagement: notas, evidencias, workflow por cliente", "tipo": "mixta", "bloqueante": false }
+    ]
+  },
+  {
+    "bloque": 6,
+    "titulo": "Higiene y cierre",
+    "lecciones": [
+      { "orden": 29, "titulo": "No filtrar secretos y purgar el historial (git-filter-repo / BFG)", "tipo": "practica", "bloqueante": false },
+      { "orden": 30, "titulo": "Cheatsheet + proyecto integrador", "tipo": "practica", "bloqueante": true }
+    ]
+  }
+]
